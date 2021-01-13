@@ -1,0 +1,26 @@
+{
+  "name": "scrapper",
+  "version": "0.0.1",
+  "description": "Web scrapper",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha test/*.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twhtanghk/scrapper.git"
+  },
+  "author": "Tommy Tang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twhtanghk/scrapper/issues"
+  },
+  "homepage": "https://github.com/twhtanghk/scrapper#readme",
+  "dependencies": {
+    "coffeescript": "^2.5.1",
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}
