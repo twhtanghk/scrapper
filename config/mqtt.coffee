@@ -10,6 +10,7 @@ module.exports =
         clean: false
       .on 'connect', ->
         @subscribe 'stock/#', qos: 2
+      .on 'error', console.error
       .on 'message', (topic, msg) ->
         {action, data} = JSON.parse msg.toString()
         {browser, stock} = global.config
