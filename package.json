@@ -4,6 +4,7 @@
   "description": "Web scrapper",
   "main": "index.coffee",
   "scripts": {
+    "start": "coffee server.coffee",
     "test": "mocha test/*.coffee"
   },
   "repository": {
@@ -18,6 +19,9 @@
   "homepage": "https://github.com/twhtanghk/scrapper#readme",
   "dependencies": {
     "coffeescript": "^2.5.1",
+    "config": "github:twhtanghk/config",
+    "mqtt": "^4.2.6",
+    "node-schedule": "^1.3.2",
     "puppeteer": "^5.5.0"
   },
   "devDependencies": {

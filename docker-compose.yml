@@ -1,0 +1,6 @@
+version: '3'
+services:
+  aastocks: 
+    image: twhtanghk/scrapper
+    env_file: 
+      - ./.env
